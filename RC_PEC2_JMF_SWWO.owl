@@ -2067,9 +2067,10 @@ jmarinfi</rdfs:comment>
 
     <!-- http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#Country -->
 
-    <owl:NamedIndividual rdf:about="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#Country">
+    <owl:Thing rdf:about="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#Country">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <owl:sameAs rdf:resource="https://dbpedia.org/ontology/country"/>
-    </owl:NamedIndividual>
+    </owl:Thing>
     
 
 
@@ -2081,7 +2082,9 @@ jmarinfi</rdfs:comment>
 
     <!-- http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#CrianzaWine -->
 
-    <owl:NamedIndividual rdf:about="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#CrianzaWine"/>
+    <owl:NamedIndividual rdf:about="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#CrianzaWine">
+        <rdf:type rdf:resource="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#Wine"/>
+    </owl:NamedIndividual>
     
 
 
@@ -2129,6 +2132,7 @@ jmarinfi</rdfs:comment>
     <!-- http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#Fertilizer -->
 
     <owl:NamedIndividual rdf:about="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#Fertilizer">
+        <rdf:type rdf:resource="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#CropTreatment"/>
         <owl:sameAs rdf:resource="https://dbpedia.org/page/Category:Fertilizers"/>
     </owl:NamedIndividual>
     
@@ -2156,9 +2160,10 @@ jmarinfi</rdfs:comment>
 
     <!-- http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#GrapeVariety -->
 
-    <owl:NamedIndividual rdf:about="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#GrapeVariety">
+    <owl:Thing rdf:about="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#GrapeVariety">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <owl:sameAs rdf:resource="https://dbpedia.org/page/Category:Wine_grape_varieties"/>
-    </owl:NamedIndividual>
+    </owl:Thing>
     
 
 
@@ -2200,6 +2205,7 @@ jmarinfi</rdfs:comment>
     <!-- http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#RedGrape -->
 
     <owl:NamedIndividual rdf:about="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#RedGrape">
+        <rdf:type rdf:resource="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#GrapeVariety"/>
         <owl:sameAs rdf:resource="https://dbpedia.org/page/Category:Red_wine_grape_varieties"/>
     </owl:NamedIndividual>
     
@@ -2359,15 +2365,18 @@ jmarinfi</rdfs:comment>
 
     <!-- http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#WhiteGrape -->
 
-    <owl:NamedIndividual rdf:about="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#WhiteGrape"/>
+    <owl:NamedIndividual rdf:about="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#WhiteGrape">
+        <rdf:type rdf:resource="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#GrapeVariety"/>
+    </owl:NamedIndividual>
     
 
 
     <!-- http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#Wine -->
 
-    <owl:NamedIndividual rdf:about="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#Wine">
+    <owl:Thing rdf:about="http://www.uoc.edu/representacion_del_conocimiento/pec2/spanishwineworldontology#Wine">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
         <owl:sameAs rdf:resource="https://dbpedia.org/page/Category:Wine"/>
-    </owl:NamedIndividual>
+    </owl:Thing>
     
 
 
